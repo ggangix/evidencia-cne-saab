@@ -3,6 +3,7 @@
 # con cabeceras, traza de curl, certificado TLS y hashes SHA-256 sellados con
 # OpenTimestamps. Uso: ./capturar.sh [cedula ...]   (por defecto las dos del README)
 set -euo pipefail
+export PATH="$HOME/.local/bin:$PATH"
 cd "$(dirname "$0")"
 
 API=https://consultapopular.cne.gob.ve/circuits-re-api/api
