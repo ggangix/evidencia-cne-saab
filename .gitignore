@@ -1,0 +1,7 @@
+# Material crudo que puede tener cookies, IP o datos personales: nunca al repo.
+# Solo se publica su hash en HASHES-PRIVADO.txt.
+privado/
+*.har
+*.mov
+*.mp4
+.DS_Store
