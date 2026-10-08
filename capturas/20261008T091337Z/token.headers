@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/8.4.18
+Cache-Control: no-cache, private
+Date: Thu, 08 Oct 2026 09:13:37 GMT
+X-RateLimit-Limit: 10
+X-RateLimit-Remaining: 9
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Access-Control-Allow-Origin: http://localhost:3000
+

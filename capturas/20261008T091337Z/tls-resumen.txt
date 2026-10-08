@@ -1,0 +1,5 @@
+subject=CN=consultapopular.cne.gob.ve
+issuer=C=US, O=Let's Encrypt, CN=YE1
+notBefore=Sep 21 13:12:18 2026 GMT
+notAfter=Dec 20 13:12:17 2026 GMT
+sha256 Fingerprint=A8:AC:8C:A8:C3:75:63:29:E4:14:4D:01:BB:02:F5:80:38:66:DB:BD:5A:7A:BC:AB:D1:44:4F:6B:20:17:9B:4E

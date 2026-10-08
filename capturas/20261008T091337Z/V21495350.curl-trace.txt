@@ -1,0 +1,61 @@
+11:13:37.583880 * Host consultapopular.cne.gob.ve:443 was resolved.
+11:13:37.584162 * IPv6: (none)
+11:13:37.584188 * IPv4: 201.130.82.55, 201.130.83.55
+11:13:37.584228 *   Trying 201.130.82.55:443...
+11:13:37.607580 * Connected to consultapopular.cne.gob.ve (201.130.82.55) port 443
+11:13:37.607711 * ALPN: curl offers h2,http/1.1
+11:13:37.607843 * (304) (OUT), TLS handshake, Client hello (1):
+11:13:37.607874 } [331 bytes data]
+11:13:37.610051 *  CAfile: /etc/ssl/cert.pem
+11:13:37.610087 *  CApath: none
+11:13:37.964931 * (304) (IN), TLS handshake, Server hello (2):
+11:13:37.965061 { [122 bytes data]
+11:13:37.965367 * (304) (IN), TLS handshake, Unknown (8):
+11:13:37.965430 { [25 bytes data]
+11:13:37.965562 * (304) (IN), TLS handshake, Certificate (11):
+11:13:37.965638 { [3438 bytes data]
+11:13:37.969853 * (304) (IN), TLS handshake, CERT verify (15):
+11:13:37.969963 { [78 bytes data]
+11:13:37.970374 * (304) (IN), TLS handshake, Finished (20):
+11:13:37.970446 { [36 bytes data]
+11:13:37.970662 * (304) (OUT), TLS handshake, Finished (20):
+11:13:37.970735 } [36 bytes data]
+11:13:37.970908 * SSL connection using TLSv1.3 / AEAD-CHACHA20-POLY1305-SHA256 / [blank] / UNDEF
+11:13:37.970981 * ALPN: server accepted http/1.1
+11:13:37.971061 * Server certificate:
+11:13:37.971138 *  subject: CN=consultapopular.cne.gob.ve
+11:13:37.971213 *  start date: Sep 21 13:12:18 2026 GMT
+11:13:37.971288 *  expire date: Dec 20 13:12:17 2026 GMT
+11:13:37.971374 *  subjectAltName: host "consultapopular.cne.gob.ve" matched cert's "consultapopular.cne.gob.ve"
+11:13:37.971453 *  issuer: C=US; O=Let's Encrypt; CN=YE1
+11:13:37.971524 *  SSL certificate verify ok.
+11:13:37.971597 * using HTTP/1.x
+11:13:37.971799 > POST /circuits-re-api/api/get-register HTTP/1.1
+11:13:37.971799 > Host: consultapopular.cne.gob.ve
+11:13:37.971799 > User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+11:13:37.971799 > Origin: https://consultapopular.cne.gob.ve
+11:13:37.971799 > Referer: https://consultapopular.cne.gob.ve/
+11:13:37.971799 > accept: application/json
+11:13:37.971799 > content-type: application/json
+11:13:37.971799 > x-web-token: MTc5MTQ1MDgxNy40YjEyMzVkNGI5NWY1OWY1NTFiODdhNGY1MjEzZWIyZi5kNTY3NzkwYjZiNjRlNjMyNmE4OTkyZGRjOTRmNWY4N2VkOGNmMGI0Y2NlYjUxOTQxYWMzZGI2MzE0YzcyOWI3
+11:13:37.971799 > Content-Length: 192
+11:13:37.971799 > 
+11:13:37.972530 } [192 bytes data]
+11:13:37.972661 * upload completely sent off: 192 bytes
+11:13:38.185849 < HTTP/1.1 200 OK
+11:13:38.186057 < Server: nginx
+11:13:38.186133 < Content-Type: application/json
+11:13:38.186210 < Transfer-Encoding: chunked
+11:13:38.186281 < Connection: keep-alive
+11:13:38.186352 < X-Powered-By: PHP/8.4.18
+11:13:38.186424 < Cache-Control: no-cache, private
+11:13:38.186499 < Date: Thu, 08 Oct 2026 09:13:38 GMT
+11:13:38.186582 < X-Content-Type-Options: nosniff
+11:13:38.186654 < X-Frame-Options: DENY
+11:13:38.186727 < X-XSS-Protection: 1; mode=block
+11:13:38.186799 < Referrer-Policy: strict-origin-when-cross-origin
+11:13:38.186872 < Permissions-Policy: geolocation=(), microphone=(), camera=()
+11:13:38.186946 < Access-Control-Allow-Origin: http://localhost:3000
+11:13:38.187018 < 
+11:13:38.187277 { [92 bytes data]
+11:13:38.187925 * Connection #0 to host consultapopular.cne.gob.ve left intact

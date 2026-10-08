@@ -1,0 +1,5 @@
+capturado_utc: 2026-10-08T09:13:43Z
+endpoint: https://consultapopular.cne.gob.ve/circuits-re-api/api/get-register
+cedulas: 21495350 36893134
+curl: curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.1
+openssl: OpenSSL 3.6.5 29 Sep 2026 (Library: OpenSSL 3.6.5 29 Sep 2026)
