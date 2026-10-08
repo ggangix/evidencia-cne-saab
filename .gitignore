@@ -5,3 +5,4 @@ privado/
 *.mov
 *.mp4
 .DS_Store
+*.bak
